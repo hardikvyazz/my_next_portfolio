@@ -1,6 +1,7 @@
 "use client"
 
 import { FaDownload } from "react-icons/fa6";
+import { FaProjectDiagram } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -50,7 +51,7 @@ const Hero = () => {
             <a href="#projects">
               <MagicButton
                 title="Explore My Work"
-                icon={<FaDownload />}
+                icon={<FaProjectDiagram />}
                 position="right"
               />
             </a>

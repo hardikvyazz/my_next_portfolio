@@ -1,10 +1,10 @@
 "use client"
 
 import { FaDownload } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import DownloadResume from "./DownloadResume";
+import DownloadResume from "./ui/DownloadResume";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
